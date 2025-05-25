@@ -1,16 +1,40 @@
-# final_project
+# American Sign Language (ASL) Recognition
 
-A new Flutter project.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-## Getting Started
+A machine learning project for recognizing American Sign Language (ASL) alphabet gestures using computer vision and deep learning techniques.
 
-This project is a starting point for a Flutter application.
+![ASL Recognition Demo](demo/demo.gif)
 
-A few resources to get you started if this is your first Flutter project:
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Overview
+This project aims to classify ASL alphabet gestures (A-Z) using deep learning. The system can:
+- Recognize static ASL alphabet signs from images
+- Real-time detection using webcam input
+- Achieve high classification accuracy through convolutional neural networks (CNNs)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- ASL Alphabet Classification (26 classes)
+- Image preprocessing pipeline
+- CNN-based deep learning model
+- Real-time webcam prediction capability
+- Model training and evaluation scripts
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/Esraa-Mohamedd/American-Sign-Language-ASL-.git
+cd American-Sign-Language-ASL-
